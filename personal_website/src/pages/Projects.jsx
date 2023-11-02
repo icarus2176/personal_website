@@ -1,5 +1,4 @@
 import gatheringList from "../assets/gathering-list-home.png"
-import Header from "../components/Header"
 import "./Project.css"
 
 export default function Project() {
