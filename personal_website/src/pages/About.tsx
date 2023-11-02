@@ -2,11 +2,9 @@ import Header from "../components/Header"
 
 export default function About() {
   return(
-    <>
-      <Header />
+    <div className="main">
       <h1>About Me</h1>
-      <h2>Hi,</h2>
-      <h3>My name is Ashe Kemuri</h3>
+      <h2>Hi, My name is Ashe Kemuri</h2>
       <div>
         I'm a frontend developer. I started learning web development from <a href="https://www.theodinproject.com/">The Odin Project</a>.
         From there I moved onto making projects and learning from experience with help from Stack Overflow.
@@ -35,6 +33,6 @@ export default function About() {
         <li>Firebase</li>
         <li>VS Code Studio</li>
       </ul>
-    </>
+    </div>
   )
 }

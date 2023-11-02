@@ -1,0 +1,11 @@
+.logo{
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}

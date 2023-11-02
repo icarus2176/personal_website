@@ -4,6 +4,7 @@ import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
 import Project from './pages/Projects.tsx';
 import Contact from './pages/Contact.tsx'
+import Header from './components/Header.tsx';
 import ErrorPage from './pages/Error.tsx';
 import {
   createBrowserRouter,
@@ -14,25 +15,41 @@ import './index.css';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element:
+    <div>
+      <Header />
+      <Home />
+    </div>,
     errorElement: <ErrorPage />
   },
 
  { 
     path: "/about",
-    element: <About />,
+    element: 
+    <div>
+      <Header />
+      <About />
+    </div>,
     errorElement: <ErrorPage />
   },
 
   {
     path: "/projects",
-    element: <Project />,
+    element:
+    <div>
+      <Header />
+      <Project />
+    </div>,
     errorElement: <ErrorPage />
   },
 
   {
     path: "/contact",
-    element: <Contact />,
+    element:
+    <div>
+      <Header />
+      <Contact />
+    </div>,
     errorElement: <ErrorPage />
   },
 ]);

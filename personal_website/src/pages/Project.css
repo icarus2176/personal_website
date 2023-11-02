@@ -1,0 +1,17 @@
+.screenshot{
+  display: block;
+  width: max(400px, 50vw);
+}
+
+.description{
+  width: 100%;
+}
+
+.project > h2{
+  font-size: 24px;
+  margin-left: -5px;
+}
+
+a > img{
+  margin: 10px;
+}

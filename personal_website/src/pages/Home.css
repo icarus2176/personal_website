@@ -1,0 +1,35 @@
+@keyframes drop{
+  from {
+    transform: translateY(-1000%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.home{
+  text-align: center;
+  width: 100vw;
+  position: fixed;
+  top: 25%;
+}
+
+.home > *{
+  margin: 0;
+}
+
+.home > h2{
+  padding-left: 25%;
+}
+
+.top{
+  padding-right: 30%;
+  font-size: 30px;
+}
+
+.home > h1{
+  animation-name: drop;
+  animation-duration: 3s;
+}
