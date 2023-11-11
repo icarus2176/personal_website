@@ -5,6 +5,7 @@ import About from './pages/About.jsx';
 import Project from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx'
 import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 import ErrorPage from './pages/Error.jsx';
 import {
   createBrowserRouter,
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
     <div>
       <Header />
       <Home />
+      <Footer />
     </div>,
     errorElement: <ErrorPage />
   },
@@ -29,6 +31,7 @@ const router = createBrowserRouter([
     <div>
       <Header />
       <About />
+      <Footer />
     </div>,
     errorElement: <ErrorPage />
   },
@@ -39,6 +42,7 @@ const router = createBrowserRouter([
     <div>
       <Header />
       <Project />
+      <Footer />
     </div>,
     errorElement: <ErrorPage />
   },
@@ -49,6 +53,7 @@ const router = createBrowserRouter([
     <div>
       <Header />
       <Contact />
+      <Footer />
     </div>,
     errorElement: <ErrorPage />
   },

@@ -1,0 +1,10 @@
+.githubLink{
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-top: solid white;
+}

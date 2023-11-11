@@ -33,10 +33,3 @@
 .home > *{
   margin: 0;
 }
-
-.githubLink{
-  width: 100%;
-  position: fixed;
-  bottom: 10px;
-  font-size: 20px;
-}

@@ -1,6 +1,7 @@
 export default function About() {
   return(
     <div className="main">
+      <title>About</title>
       <h1>About Me</h1>
       <h2>Hi, My name is Ashe Kemuri</h2>
       <div>
@@ -18,18 +19,18 @@ export default function About() {
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
-        <li>React</li>
-        <li>Typescript</li>
-        <li>Ruby</li>
-        <li>Ruby on Rails</li>
-        <li>PostgreSQL</li>
-        <li>ESlint</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>npm</li>
-        <li>Netlify</li>
-        <li>Firebase</li>
-        <li>VS Code Studio</li>
+        <li><a href="https://react.dev/">React</a></li>
+        <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+        <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+        <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+        <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+        <li><a href="https://eslint.org/">ESlint</a></li>
+        <li><a href="https://git-scm.com/">Git</a></li>
+        <li><a href="https://github.com/">Github</a></li>
+        <li><a href="https://www.npmjs.com/">npm</a></li>
+        <li><a href="https://www.netlify.com/">Netlify</a></li>
+        <li><a href="https://firebase.google.com/">Firebase</a></li>
+        <li><a href="https://code.visualstudio.com/">VS Code Studio</a></li>
       </ul>
     </div>
   )

@@ -5,6 +5,7 @@ export default function Project() {
   return(
     <div className="main">
       <div className="project">
+        <title>Projects</title>
         <h1>Projects</h1>
         <h2>Gathering List</h2>
         <a href="https://github.com/icarus2176/gathering_list">See the code on Github!</a>
