@@ -1,6 +1,6 @@
 .screenshot{
   display: block;
-  max-width: min(80%, 1000px);
+  max-width: min(80vw, 1000px);
   border: solid black;
   border-radius: 10px;
 }
