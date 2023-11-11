@@ -1,6 +1,8 @@
 .screenshot{
   display: block;
   width: max(400px, 50vw);
+  border: solid black;
+  border-radius: 10px;
 }
 
 .description{

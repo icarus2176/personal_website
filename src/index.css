@@ -27,7 +27,7 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
-  width: 100%;
+  min-width: 100%;
   background-color: #003459;
 }
 
@@ -80,6 +80,4 @@ h1, h2, h3, div, .link{
 .main{
   margin: 40px;
   margin-top: 11vh;
-  position: fixed;
-  top: 0px;
 }

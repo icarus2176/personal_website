@@ -16,12 +16,8 @@
   top: 25%;
 }
 
-.home > *{
-  margin: 0;
-}
-
 .home > h2{
-  padding-left: 25%;
+  padding-left: 30%;
 }
 
 .top{
@@ -32,4 +28,15 @@
 .home > h1{
   animation-name: drop;
   animation-duration: 3s;
+}
+
+.home > *{
+  margin: 0;
+}
+
+.githubLink{
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  font-size: 20px;
 }

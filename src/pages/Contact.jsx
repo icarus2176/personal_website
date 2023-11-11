@@ -5,7 +5,7 @@ import "./Contact.css"
 
 export default function Contact() {
   return(
-    <div className="main">
+    <div className="main contact">
       <h1>Where to Find Me</h1>
       <div className="row">
         <img className="logo" src={githubLogo} alt="Github Logo"></img>
