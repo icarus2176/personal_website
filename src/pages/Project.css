@@ -5,13 +5,10 @@
   border-radius: 10px;
 }
 
-.description{
-  width: 100%;
-}
-
 .project > h2{
-  font-size: 24px;
+  font-size: 30px;
   margin-left: -5px;
+  margin-bottom: 5px;
 }
 
 a > img{

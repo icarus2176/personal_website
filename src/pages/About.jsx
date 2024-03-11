@@ -2,9 +2,9 @@ export default function About() {
   return(
     <div className="main">
       <title>About</title>
-      <h1>About Me</h1>
+      <h1>ABOUT ME</h1>
       <h2>Hi, My name is Ashe Kemuri</h2>
-      <div>
+      <div className="paragraph">
         I'm a frontend developer. I started learning web development from <a href="https://www.theodinproject.com/">The Odin Project</a>.
         From there I moved onto making projects and learning from experience with help from Stack Overflow.
         While I'm a frontend developer I do have experience with the backend, specifically Ruby and Ruby on Rails.

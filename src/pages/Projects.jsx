@@ -1,4 +1,4 @@
-import gatheringList from "../assets/gathering-list-home.png"
+import gatheringList from "../assets/gathering-list.png"
 import "./Project.css"
 
 export default function Project() {
@@ -6,13 +6,11 @@ export default function Project() {
     <div className="main">
       <div className="project">
         <title>Projects</title>
-        <h1>Projects</h1>
+        <h1>PROJECTS</h1>
         <h2>Gathering List</h2>
         <a href="https://github.com/icarus2176/gathering_list">See the code on Github!</a>
-        <a href="https://gathering-list.netlify.app/">
-          <img className="screenshot" src={gatheringList} alt="A screenshot of a Gathering List a website. There is a logo at the top with the name of the website, follow by a grid of Magic the Gathering Cards." />
-        </a>
-        <div className="description">
+        <img className="screenshot" src={gatheringList} alt="A screenshot of a Gathering List a website. There is a logo at the top with the name of the website, follow by a grid of Magic the Gathering Cards." />
+        <div className="paragraph">
           Click image to go to site. A website that has the user login using their Google account, and keeps a list of Magic the Gathering Cards.
           Clicking the "Add" button in the bottom right opens a dialog from where the user can search cards by name.
           Displays the card, price, and lets the user change between nonfoil and foil.

@@ -1,10 +1,11 @@
 .githubLink{
-  width: 100vw;
+  min-width: 100vw;
   height: 50px;
   position: absolute;
   bottom: 0;
   padding-top: 10px;
   font-size: 20px;
   text-align: center;
-  border-top: solid white;
+  border-top: solid #45d3a1;
+  color: #1f2b37;
 }

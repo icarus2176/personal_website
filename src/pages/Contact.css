@@ -13,3 +13,7 @@
 .contact{
   height: inherit;  
 }
+
+.row > *{
+  font-size: 24px;
+}
