@@ -7,17 +7,20 @@ export default function Project() {
       <div className="project">
         <title>Projects</title>
         <h1>PROJECTS</h1>
-        <h2>Gathering List</h2>
-        <a href="https://github.com/icarus2176/gathering_list">See the code on Github!</a>
+        <div className="row">
+          <a href="https://gathering-list.netlify.app/"><h2>Gathering List </h2></a>
+          <div> | </div>
+          <a href="https://github.com/icarus2176/gathering_list">Github Code</a>
+        </div>
         <img className="screenshot" src={gatheringList} alt="A screenshot of a Gathering List a website. There is a logo at the top with the name of the website, follow by a grid of Magic the Gathering Cards." />
         <div className="paragraph">
-          Click image to go to site. A website that has the user login using their Google account, and keeps a list of Magic the Gathering Cards.
-          Clicking the "Add" button in the bottom right opens a dialog from where the user can search cards by name.
+          A website that has the user login using their Google account, and keeps a list of Magic the Gathering Cards via Google Firebase.
+          Clicking the "Add" button in the bottom right opens a dialog from where the user can search cards by name through the Scryfall API.
           Displays the card, price, and lets the user change between nonfoil and foil.
           Hovering over the card displays additional information.
-          Cards can be added and removed.
+          Cards can be changed between foil and nonfoil, added, and removed
         </div>
-        <h3>Uses</h3>
+        <h3>Utilizes</h3>
         <ul>
           <li>HTML, CSS, and Javascript</li>
           <li>React</li>

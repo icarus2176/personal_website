@@ -4,16 +4,30 @@
   margin: 10px;
 }
 
-.row{
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
 .contact{
   height: inherit;  
 }
 
 .row > *{
   font-size: 24px;
+}
+
+.sideByside{
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+@media (max-width: 768px){
+  .sideByside{
+    flex-direction: column;
+  }
+
+  .logo{
+    width: 50px;
+  }
+
+  .row > *{
+    font-size: 16px;
+  }
 }

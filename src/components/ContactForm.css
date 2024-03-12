@@ -1,0 +1,25 @@
+label, input, textarea{
+  font-size: 18px;
+}
+
+input, textarea{
+  min-width: max(25vw, 300px);
+}
+
+textarea{
+  height:150px;
+}
+
+form > button{
+  background-color: #4f76f6;
+}
+
+.contactForm, form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contactForm{
+  padding-bottom: 25px;
+}

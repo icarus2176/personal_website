@@ -16,12 +16,12 @@
 
 a {
   font-weight: 500;
-  color: #f0ae3d;
+  color: white;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #f9f9f9;
+  color: #945aff;
 }
 
 body { 
@@ -42,13 +42,13 @@ body, .main, .home, #root{
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 48px;
   line-height: 1.1;
   margin-left: -20px;
   display: inline-block;
   border-bottom: solid;
   border-width: 4px;
-  border-image: linear-gradient(to right, #f0ae3d, #4f76f6, #945aff) 1;
+  border-image: linear-gradient(to right, white, #4f76f6, #945aff) 1;
 }
 
 button {
@@ -96,4 +96,16 @@ button:focus-visible {
 
 .paragraph{
   max-width: min(85vw, 1100px);
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+  h1{
+    font-size: 36px;
+  }
 }
