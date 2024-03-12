@@ -14,6 +14,7 @@
   width: 100vw;
   position: fixed;
   top: 25%;
+  margin-top: 11vh;
 }
 
 .home > h2{
@@ -32,4 +33,18 @@
 
 .home > *{
   margin: 0;
+}
+
+@media (max-width: 768px){
+  .home > h2{
+    padding-left: 0;
+  }
+
+  .top{
+    padding-right: 0;
+  }
+
+  .home > h2, .top{
+    font-size: 20px;
+  }
 }

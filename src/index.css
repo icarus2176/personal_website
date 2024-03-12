@@ -90,6 +90,10 @@ button:focus-visible {
   animation: fadeIn 1s; 
 }
 
+.home{
+  animation: fadeIn 2s;
+}
+
 .main > *{
   max-width: 100vw;
 }
