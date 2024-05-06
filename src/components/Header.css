@@ -9,6 +9,7 @@
   text-align: center;
   background-color: #003459;
   border-bottom: solid;
+  z-index: 1;
 }
 
 .link{
