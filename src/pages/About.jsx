@@ -1,8 +1,11 @@
+import resume from "../assets/resume.pdf"
+
 export default function About() {
   return(
     <div className="main">
       <title>About</title>
       <h1>ABOUT ME</h1>
+      <a href={resume} download="Resume - Ashe Kemuri"><div>Download Resume</div></a>
       <h2>Hi, My name is Ashe Kemuri</h2>
       <div className="paragraph">
         I'm a frontend developer. I started learning web development from <a href="https://www.theodinproject.com/">The Odin Project</a>.
